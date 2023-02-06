@@ -17,60 +17,78 @@ const introdata = {
     description: "Passionate Mern stack developer",
     your_img_url: "src/assets/image/portfolio.png",
 };
-const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
-};
+const dataabout = [{
+    title: "Bachelor's Degree",
+    describe: "Comsats University Islamabad",
+    date : "2018 - 2022"
+},
+{
+    title: "Cloudsekho challange",
+    describe: "Completed Season 3,4 ",
+    date : "2021"
+}
+];
 const worktimeline = [{
-        jobtitle: "MERN stack dev",
-        where: "YAdfi",
-        date: "2020",
+        jobtitle: "Flutter developer",
+        where: "Freelance",
+        date: "2020-2021",
+        projects : [{flutter :"Traversa"}, ]
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        jobtitle: "Mern Stack developer",
+        where: "Ideal Innovative Solutions",
+        date: "2021-2023",
+        projects : ["TechBar", "EDM"]
     },
     {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "Node Js developer",
+        where: "Turing",
+        date: "2022-2023",
     },
 ];
 
-const skills = [{
-        name: "Python",
-        value: 90,
-    },
-    {
-        name: "Djano",
-        value: 85,
-    },
+const skills = [
     {
         name: "Javascript",
         value: 80,
     },
     {
-        name: "React",
-        value: 60,
+        name: "MongoDB",
+        value: 70,
     },
     {
-        name: "Jquery",
-        value: 85,
+        name: "React",
+        value: 90,
+    },
+    {
+        name: "Node",
+        value:  90,
+    },
+    {
+        name: "Flutter",
+        value: 70,
+    },
+    {
+        name: "PostgreSQL",
+        value: 80,
+    },
+    {
+        name: "Python",
+        value: 70,
     },
 ];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Website Development",
+        description: "Helps businesses and individuals design, build, and maintain websites, which include website design, programming and coding, content creation, server and hosting setup, website optimization, and ongoing maintenance and support",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Android Apps Development",
+        description: "Provides businesses and individuals with the tools and expertise necessary to create high-quality, user-friendly apps that run on Android-powered devices. The goal is to create an app that provides a seamless user experience, is easy to use, and meets the needs and requirements of the target audience.",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Website Designing",
+        description: "Helps businesses and individuals for the creation of a website's layout, graphics, color scheme, and overall aesthetic, as well as its functionality and navigation. The goal of a web design service is to create a website that effectively communicates the client's brand and message, and provides a positive user experience for visitors.",
     },
 ];
 
