@@ -24,7 +24,7 @@ export const ContactUs = () => {
     const templateParams = {
       from_name: formData.email,
       user_name: formData.name,
-      to_name: contactConfig.YOUR_EMAIL,
+      to_name: contactConfig.MY_EMAIL,
       message: formData.message,
     };
 
@@ -56,7 +56,6 @@ export const ContactUs = () => {
         }
       );
   };
-
   const handleChange = (e) => {
     setFormdata({
       ...formData,
@@ -96,8 +95,8 @@ export const ContactUs = () => {
             <h3 className="color_sec py-4">Get in touch</h3>
             <address>
               <strong>Email:</strong>{" "}
-              <a href={`mailto:${contactConfig.YOUR_EMAIL}`}>
-                {contactConfig.YOUR_EMAIL}
+              <a href={`mailto:${contactConfig.MY_EMAIL}`}>
+                {contactConfig.MY_EMAIL}
               </a>
               <br />
               <br />

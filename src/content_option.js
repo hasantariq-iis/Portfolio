@@ -156,11 +156,9 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "HassanTariq5544@gmail.com",
+    MY_EMAIL: "HassanTariq5544@gmail.com",
     YOUR_FONE: "+92317-7892469",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
-    // creat an emailjs.com account 
-    // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_bvtyo1w",
     YOUR_TEMPLATE_ID: "template_0d5911m",   
     YOUR_USER_ID: "zrKv051AOw88ek2wv",
@@ -171,8 +169,8 @@ const socialprofils = {
     facebook: "https://facebook.com",
     linkedin: "https://linkedin.com/in/hsn-tariq/",
     twitter: "https://twitter.com/iamhsntariq",
-    youtube: "https://youtube.com",
-    twitch: "https://twitch.com",
+    youtube: "https://www.youtube.com/@hassantariq2459",
+    gitlab: "https://gitlab.4iisolutions.com/hassan",
     stackoverflow : "https://stackoverflow.com/users/12553511/iamhsntariq"
 };
 export {
